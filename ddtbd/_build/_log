@@ -1,0 +1,47 @@
+### Starting build.
+# Target: ddtbd.ml.depends, tags: { package(bap), package(bap-primus), package(bap-taint), package(core_kernel), package(ppx_jane), pp(ppx-jane -dump-ast -inline-test-drop), predicate(custom_ppx), predicate(ppx_driver), custom, debug, extension:ml, file:ddtbd.ml, ocaml, ocamldep, quiet, short_paths, thread, traverse }
+ocamlfind ocamldep -package bap-primus -package bap-taint -package ppx_jane -package core_kernel -package bap -pp 'ppx-jane -dump-ast -inline-test-drop' -predicates custom_ppx -predicates ppx_driver -modules ddtbd.ml > ddtbd.ml.depends
+# Target: ddtbd.cmo, tags: { package(bap), package(bap-primus), package(bap-taint), package(core_kernel), package(ppx_jane), pp(ppx-jane -dump-ast -inline-test-drop), predicate(custom_ppx), predicate(ppx_driver), byte, compile, custom, debug, extension:cmo, extension:ml, file:ddtbd.cmo, file:ddtbd.ml, implem, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlc -c -g -short-paths -thread -package bap-primus -package bap-taint -package ppx_jane -package core_kernel -package bap -pp 'ppx-jane -dump-ast -inline-test-drop' -predicates custom_ppx -predicates ppx_driver -o ddtbd.cmo ddtbd.ml
+# Target: ddtbd.cmx, tags: { package(bap), package(bap-primus), package(bap-taint), package(core_kernel), package(ppx_jane), pp(ppx-jane -dump-ast -inline-test-drop), predicate(custom_ppx), predicate(ppx_driver), compile, custom, debug, extension:cmx, extension:ml, file:ddtbd.cmx, file:ddtbd.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -c -g -short-paths -thread -package bap-primus -package bap-taint -package ppx_jane -package core_kernel -package bap -pp 'ppx-jane -dump-ast -inline-test-drop' -predicates custom_ppx -predicates ppx_driver -o ddtbd.cmx ddtbd.ml
+# Target: ddtbd.cmxa, tags: { package(bap), package(bap-primus), package(bap-taint), package(core_kernel), package(ppx_jane), pp(ppx-jane -dump-ast -inline-test-drop), predicate(custom_ppx), predicate(ppx_driver), custom, debug, dont_link_with, extension:cmxa, file:ddtbd.cmxa, library, link, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -a -thread -package bap-primus -package bap-taint -package ppx_jane -package core_kernel -package bap -pp 'ppx-jane -dump-ast -inline-test-drop' -predicates custom_ppx -predicates ppx_driver ddtbd.cmx -o ddtbd.cmxa
+# Target: ddtbd.cmxs, tags: {  }
+ocamlfind ocamlopt -shared -linkall -ccopt -L -ccopt . ddtbd.cmxa -o ddtbd.cmxs # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-abi/bap_abi.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-abi/bap_abi.cma . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-api/bap_api.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-api/bap_api.cma . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-c/bap_c.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-c/bap_c.cma . # cached
+# Target: parsexp.cmxs, tags: {  }
+ocamlfind ocamlopt -shared -linkall -ccopt -L -ccopt /home/wgh/.opam/4.05.0/lib/parsexp /home/wgh/.opam/4.05.0/lib/parsexp/parsexp.cmxa -o parsexp.cmxs # cached
+# Target: parsexp.cma, tags: {  }
+ocamlfind ocamlc -linkall -a /home/wgh/.opam/4.05.0/lib/parsexp/parsexp.cma -o parsexp.cma # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-strings/bap_strings.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-strings/bap_strings.cma . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-primus/bap_primus.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-primus/bap_primus.cma . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-taint/taint.cmxs . # cached
+# Target: ., tags: {  }
+cp /home/wgh/.opam/4.05.0/lib/bap-taint/taint.cma . # cached
+# Target: ddtbd.cma, tags: { package(bap), package(bap-primus), package(bap-taint), package(core_kernel), package(ppx_jane), pp(ppx-jane -dump-ast -inline-test-drop), predicate(custom_ppx), predicate(ppx_driver), byte, custom, debug, dont_link_with, extension:cma, file:ddtbd.cma, library, link, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlc -a -custom -thread -package bap-primus -package bap-taint -package ppx_jane -package core_kernel -package bap -pp 'ppx-jane -dump-ast -inline-test-drop' -predicates custom_ppx -predicates ppx_driver ddtbd.cmo -o ddtbd.cma
+# Target: ddtbd.plugin, tags: { bundle, library, plugin }
+bapbundle pack -name ddtbd -main ddtbd.cmxs -main ddtbd.cma -requires 'bap_abi=bap_abi.cmxs,bap_abi=bap_abi.cma,bap_api=bap_api.cmxs,bap_api=bap_api.cma,bap_c=bap_c.cmxs,bap_c=bap_c.cma,parsexp=parsexp.cmxs,parsexp=parsexp.cma,bap_strings=bap_strings.cmxs,bap_strings=bap_strings.cma,bap_primus=bap_primus.cmxs,bap_primus=bap_primus.cma,taint=taint.cmxs,taint=taint.cma' -provides ddtbd ddtbd.plugin # cached
+# Target: ln -sf /home/wgh/oo7/ddtbd/_build/ddtbd.plugin .., tags: {  }
+ln -sf /home/wgh/oo7/ddtbd/_build/ddtbd.plugin .. # cached
+# No parallelism done
+# Compilation successful.

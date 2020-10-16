@@ -1,0 +1,2 @@
+git clone https://github.com/samba-team/samba.git
+git checkout fc473cd28261478cc9c3232b43fc725f0468f8a9

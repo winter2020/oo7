@@ -1,0 +1,654 @@
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/optimization.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/ssa.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/constant_tracker.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_dictionary.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/beagle.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/powerpc.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/objdump.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/arm.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_print.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/emit_ida_script.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/abi.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/mips.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_wandering.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/frontc_parser.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/trace.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_test.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/bil.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/cxxfilt.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/strings.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/x86.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/report.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/print.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_loader.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/run.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_region.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/read_symbols.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_round_robin.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_lisp.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/api.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/propagate_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/trivial_condition_form.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/relocatable.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/ddtbd.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_propagate_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/cache.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_x86.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_limit.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/piqi_printers.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/warn_unused.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_promiscuous.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/map_terms.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_mark_visited.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/demangle.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/llvm.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/phoenix.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/byteweight.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_exploring.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_greedy.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/dump_symbols.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/callsites.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/optimization.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/ssa.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/constant_tracker.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_dictionary.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/beagle.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/powerpc.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/objdump.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/arm.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_print.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/emit_ida_script.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/abi.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/mips.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_wandering.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/frontc_parser.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/trace.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_test.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/bil.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/cxxfilt.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/strings.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/x86.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/report.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/print.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_loader.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/run.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_region.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/read_symbols.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_round_robin.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_lisp.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/api.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/propagate_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/trivial_condition_form.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/relocatable.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/ddtbd.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_propagate_taint.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/cache.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_x86.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_limit.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/piqi_printers.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/warn_unused.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_promiscuous.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/map_terms.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_mark_visited.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/demangle.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/llvm.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/phoenix.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/byteweight.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_exploring.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/primus_greedy.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/dump_symbols.plugin
+loader.debug> Opening bundle /home/wgh/.opam/4.05.0/lib/bap/callsites.plugin
+loader.debug> Loading taint from "/home/wgh/.opam/4.05.0/lib/bap/taint.plugin"
+loader.debug> Linking library taint_plugin
+loader.debug> Linking library bap_plugin_taint
+loader.info> Loaded taint from "/home/wgh/.opam/4.05.0/lib/bap/taint.plugin"
+loader.debug> Loading optimization from "/home/wgh/.opam/4.05.0/lib/bap/optimization.plugin"
+loader.debug> Linking library optimization_plugin
+loader.debug> Linking library bap_plugin_optimization
+loader.info> Loaded optimization from "/home/wgh/.opam/4.05.0/lib/bap/optimization.plugin"
+loader.debug> Loading ssa from "/home/wgh/.opam/4.05.0/lib/bap/ssa.plugin"
+loader.debug> Linking library ssa_plugin
+loader.debug> Linking library bap_plugin_ssa
+loader.info> Loaded ssa from "/home/wgh/.opam/4.05.0/lib/bap/ssa.plugin"
+loader.debug> Loading constant-tracker from "/home/wgh/.opam/4.05.0/lib/bap/constant_tracker.plugin"
+loader.debug> Linking library bap_abi
+loader.debug> Linking library bap_api
+loader.debug> Linking library bap_c
+loader.debug> Linking library bap_strings
+loader.debug> Linking library bap_primus
+loader.debug> Linking library constant_tracker_plugin
+loader.debug> Linking library bap_plugin_constant_tracker
+loader.info> Loaded constant-tracker from "/home/wgh/.opam/4.05.0/lib/bap/constant_tracker.plugin"
+loader.debug> Loading primus-dictionary from "/home/wgh/.opam/4.05.0/lib/bap/primus_dictionary.plugin"
+loader.debug> Linking library primus_dictionary_library_plugin
+loader.debug> Linking library bap_plugin_primus_dictionary
+loader.info> Loaded primus-dictionary from "/home/wgh/.opam/4.05.0/lib/bap/primus_dictionary.plugin"
+loader.debug> Loading beagle from "/home/wgh/.opam/4.05.0/lib/bap/beagle.plugin"
+loader.debug> Linking library microx
+loader.debug> Linking library beagle_prey
+loader.debug> Linking library beagle_plugin
+loader.debug> Linking library bap_plugin_beagle
+loader.info> Loaded beagle from "/home/wgh/.opam/4.05.0/lib/bap/beagle.plugin"
+loader.debug> Loading powerpc from "/home/wgh/.opam/4.05.0/lib/bap/powerpc.plugin"
+loader.debug> Linking library powerpc_plugin
+loader.debug> Linking library bap_plugin_powerpc
+loader.info> Loaded powerpc from "/home/wgh/.opam/4.05.0/lib/bap/powerpc.plugin"
+loader.debug> Loading objdump from "/home/wgh/.opam/4.05.0/lib/bap/objdump.plugin"
+loader.debug> Linking library re_pcre
+loader.debug> Linking library objdump_plugin
+loader.debug> Linking library bap_plugin_objdump
+loader.info> Loaded objdump from "/home/wgh/.opam/4.05.0/lib/bap/objdump.plugin"
+loader.debug> Loading arm from "/home/wgh/.opam/4.05.0/lib/bap/arm.plugin"
+loader.debug> Linking library bap-arm
+loader.debug> Linking library arm_plugin
+loader.debug> Linking library bap_plugin_arm
+loader.info> Loaded arm from "/home/wgh/.opam/4.05.0/lib/bap/arm.plugin"
+loader.debug> Loading primus-print from "/home/wgh/.opam/4.05.0/lib/bap/primus_print.plugin"
+loader.debug> Linking library bare
+loader.debug> Linking library primus_print_plugin
+loader.debug> Linking library bap_plugin_primus_print
+loader.info> Loaded primus-print from "/home/wgh/.opam/4.05.0/lib/bap/primus_print.plugin"
+loader.debug> Loading emit-ida-script from "/home/wgh/.opam/4.05.0/lib/bap/emit_ida_script.plugin"
+loader.debug> Linking library emit_ida_script_plugin
+loader.debug> Linking library bap_plugin_emit_ida_script
+loader.info> Loaded emit-ida-script from "/home/wgh/.opam/4.05.0/lib/bap/emit_ida_script.plugin"
+loader.debug> Loading abi from "/home/wgh/.opam/4.05.0/lib/bap/abi.plugin"
+loader.debug> Linking library abi_plugin
+loader.debug> Linking library bap_plugin_abi
+loader.info> Loaded abi from "/home/wgh/.opam/4.05.0/lib/bap/abi.plugin"
+loader.debug> Loading mips from "/home/wgh/.opam/4.05.0/lib/bap/mips.plugin"
+loader.debug> Linking library mips_plugin
+loader.debug> Linking library bap_plugin_mips
+loader.info> Loaded mips from "/home/wgh/.opam/4.05.0/lib/bap/mips.plugin"
+loader.debug> Loading primus-wandering from "/home/wgh/.opam/4.05.0/lib/bap/primus_wandering.plugin"
+loader.debug> Linking library primus_wandering_scheduler_plugin
+loader.debug> Linking library bap_plugin_primus_wandering
+loader.info> Loaded primus-wandering from "/home/wgh/.opam/4.05.0/lib/bap/primus_wandering.plugin"
+loader.debug> Loading frontc-parser from "/home/wgh/.opam/4.05.0/lib/bap/frontc_parser.plugin"
+loader.debug> Linking library frontc
+loader.debug> Linking library frontc_parser_plugin
+loader.debug> Linking library bap_plugin_frontc_parser
+loader.info> Loaded frontc-parser from "/home/wgh/.opam/4.05.0/lib/bap/frontc_parser.plugin"
+loader.debug> Loading trace from "/home/wgh/.opam/4.05.0/lib/bap/trace.plugin"
+loader.debug> Linking library traces
+loader.debug> Linking library trace_plugin
+loader.debug> Linking library bap_plugin_trace
+loader.info> Loaded trace from "/home/wgh/.opam/4.05.0/lib/bap/trace.plugin"
+loader.debug> Loading primus-test from "/home/wgh/.opam/4.05.0/lib/bap/primus_test.plugin"
+loader.debug> Linking library primus_test_library_plugin
+loader.debug> Linking library bap_plugin_primus_test
+loader.info> Loaded primus-test from "/home/wgh/.opam/4.05.0/lib/bap/primus_test.plugin"
+loader.debug> Loading bil from "/home/wgh/.opam/4.05.0/lib/bap/bil.plugin"
+loader.debug> Linking library bil_plugin
+loader.debug> Linking library bap_plugin_bil
+loader.info> Loaded bil from "/home/wgh/.opam/4.05.0/lib/bap/bil.plugin"
+loader.debug> Loading cxxfilt from "/home/wgh/.opam/4.05.0/lib/bap/cxxfilt.plugin"
+loader.debug> Linking library bap-demangle
+loader.debug> Linking library cxxfilt_plugin
+loader.debug> Linking library bap_plugin_cxxfilt
+loader.info> Loaded cxxfilt from "/home/wgh/.opam/4.05.0/lib/bap/cxxfilt.plugin"
+loader.debug> Loading strings from "/home/wgh/.opam/4.05.0/lib/bap/strings.plugin"
+loader.debug> Linking library strings_plugin
+loader.debug> Linking library bap_plugin_strings
+loader.info> Loaded strings from "/home/wgh/.opam/4.05.0/lib/bap/strings.plugin"
+loader.debug> Loading x86 from "/home/wgh/.opam/4.05.0/lib/bap/x86.plugin"
+loader.debug> Linking library bap-x86-cpu
+loader.debug> Linking library bap_llvm
+loader.debug> Linking library x86_plugin
+loader.debug> Linking library bap_plugin_x86
+loader.info> Loaded x86 from "/home/wgh/.opam/4.05.0/lib/bap/x86.plugin"
+loader.debug> Loading report from "/home/wgh/.opam/4.05.0/lib/bap/report.plugin"
+loader.debug> Linking library report_plugin
+loader.debug> Linking library bap_plugin_report
+loader.info> Loaded report from "/home/wgh/.opam/4.05.0/lib/bap/report.plugin"
+loader.debug> Loading print from "/home/wgh/.opam/4.05.0/lib/bap/print.plugin"
+loader.debug> Linking library text-tags
+loader.debug> Linking library print_plugin
+loader.debug> Linking library bap_plugin_print
+loader.info> Loaded print from "/home/wgh/.opam/4.05.0/lib/bap/print.plugin"
+loader.debug> Loading primus-loader from "/home/wgh/.opam/4.05.0/lib/bap/primus_loader.plugin"
+loader.debug> Linking library primus_loader_plugin
+loader.debug> Linking library bap_plugin_primus_loader
+loader.info> Loaded primus-loader from "/home/wgh/.opam/4.05.0/lib/bap/primus_loader.plugin"
+loader.debug> Loading run from "/home/wgh/.opam/4.05.0/lib/bap/run.plugin"
+loader.debug> Linking library run_plugin
+loader.debug> Linking library bap_plugin_run
+loader.info> Loaded run from "/home/wgh/.opam/4.05.0/lib/bap/run.plugin"
+loader.debug> Loading primus-region from "/home/wgh/.opam/4.05.0/lib/bap/primus_region.plugin"
+loader.debug> Linking library primus_region_library_plugin
+loader.debug> Linking library bap_plugin_primus_region
+loader.info> Loaded primus-region from "/home/wgh/.opam/4.05.0/lib/bap/primus_region.plugin"
+loader.debug> Loading read-symbols from "/home/wgh/.opam/4.05.0/lib/bap/read_symbols.plugin"
+loader.debug> Linking library read_symbols_plugin
+loader.debug> Linking library bap_plugin_read_symbols
+loader.info> Loaded read-symbols from "/home/wgh/.opam/4.05.0/lib/bap/read_symbols.plugin"
+loader.debug> Loading primus-taint from "/home/wgh/.opam/4.05.0/lib/bap/primus_taint.plugin"
+loader.debug> Linking library taint
+loader.debug> Linking library primus_taint_plugin
+loader.debug> Linking library bap_plugin_primus_taint
+loader.info> Loaded primus-taint from "/home/wgh/.opam/4.05.0/lib/bap/primus_taint.plugin"
+loader.debug> Loading primus-round-robin from "/home/wgh/.opam/4.05.0/lib/bap/primus_round_robin.plugin"
+loader.debug> Linking library primus_round_robin_scheduler_plugin
+loader.debug> Linking library bap_plugin_primus_round_robin
+loader.info> Loaded primus-round-robin from "/home/wgh/.opam/4.05.0/lib/bap/primus_round_robin.plugin"
+loader.debug> Loading primus-lisp from "/home/wgh/.opam/4.05.0/lib/bap/primus_lisp.plugin"
+loader.debug> Linking library primus_lisp_library_plugin
+loader.debug> Linking library bap_plugin_primus_lisp
+loader.info> Loaded primus-lisp from "/home/wgh/.opam/4.05.0/lib/bap/primus_lisp.plugin"
+loader.debug> Loading api from "/home/wgh/.opam/4.05.0/lib/bap/api.plugin"
+loader.debug> Linking library api_plugin
+loader.debug> Linking library bap_plugin_api
+loader.info> Loaded api from "/home/wgh/.opam/4.05.0/lib/bap/api.plugin"
+loader.debug> Loading propagate-taint from "/home/wgh/.opam/4.05.0/lib/bap/propagate_taint.plugin"
+loader.debug> Linking library propagate_taint_plugin
+loader.debug> Linking library bap_plugin_propagate_taint
+loader.info> Loaded propagate-taint from "/home/wgh/.opam/4.05.0/lib/bap/propagate_taint.plugin"
+loader.debug> Loading trivial-condition-form from "/home/wgh/.opam/4.05.0/lib/bap/trivial_condition_form.plugin"
+loader.debug> Linking library trivial_condition_form_plugin
+loader.debug> Linking library bap_plugin_trivial_condition_form
+loader.info> Loaded trivial-condition-form from "/home/wgh/.opam/4.05.0/lib/bap/trivial_condition_form.plugin"
+loader.debug> Loading relocatable from "/home/wgh/.opam/4.05.0/lib/bap/relocatable.plugin"
+loader.debug> Linking library relocatable_plugin
+loader.debug> Linking library bap_plugin_relocatable
+loader.info> Loaded relocatable from "/home/wgh/.opam/4.05.0/lib/bap/relocatable.plugin"
+loader.debug> Loading ddtbd from "/home/wgh/.opam/4.05.0/lib/bap/ddtbd.plugin"
+loader.debug> Linking library ddtbd
+loader.info> Loaded ddtbd from "/home/wgh/.opam/4.05.0/lib/bap/ddtbd.plugin"
+loader.debug> Loading primus-propagate-taint from "/home/wgh/.opam/4.05.0/lib/bap/primus_propagate_taint.plugin"
+loader.debug> Linking library primus_propagate_taint_plugin
+loader.debug> Linking library bap_plugin_primus_propagate_taint
+loader.info> Loaded primus-propagate-taint from "/home/wgh/.opam/4.05.0/lib/bap/primus_propagate_taint.plugin"
+loader.debug> Loading cache from "/home/wgh/.opam/4.05.0/lib/bap/cache.plugin"
+loader.debug> Linking library cache_plugin
+loader.debug> Linking library bap_plugin_cache
+cache.info> caching to /home/wgh/.cache/bap
+loader.info> Loaded cache from "/home/wgh/.opam/4.05.0/lib/bap/cache.plugin"
+loader.debug> Loading primus-x86 from "/home/wgh/.opam/4.05.0/lib/bap/primus_x86.plugin"
+loader.debug> Linking library primus_x86_plugin
+loader.debug> Linking library bap_plugin_primus_x86
+loader.info> Loaded primus-x86 from "/home/wgh/.opam/4.05.0/lib/bap/primus_x86.plugin"
+loader.debug> Loading primus-limit from "/home/wgh/.opam/4.05.0/lib/bap/primus_limit.plugin"
+loader.debug> Linking library primus_limit
+loader.debug> Linking library bap_plugin_primus_limit
+loader.info> Loaded primus-limit from "/home/wgh/.opam/4.05.0/lib/bap/primus_limit.plugin"
+loader.debug> Loading piqi-printers from "/home/wgh/.opam/4.05.0/lib/bap/piqi_printers.plugin"
+loader.debug> Linking library piqirun
+loader.debug> Linking library ulexing
+loader.debug> Linking library easy_format
+loader.debug> Linking library xmlm
+loader.debug> Linking library base64
+loader.debug> Linking library piqilib
+loader.debug> Linking library piqirun_ext
+loader.debug> Linking library bap-piqi
+loader.debug> Linking library piqi_printers_plugin
+loader.debug> Linking library bap_plugin_piqi_printers
+loader.info> Loaded piqi-printers from "/home/wgh/.opam/4.05.0/lib/bap/piqi_printers.plugin"
+loader.debug> Loading warn-unused from "/home/wgh/.opam/4.05.0/lib/bap/warn_unused.plugin"
+loader.debug> Linking library warn_unused_plugin
+loader.debug> Linking library bap_plugin_warn_unused
+loader.info> Loaded warn-unused from "/home/wgh/.opam/4.05.0/lib/bap/warn_unused.plugin"
+loader.debug> Loading primus-promiscuous from "/home/wgh/.opam/4.05.0/lib/bap/primus_promiscuous.plugin"
+loader.debug> Linking library primus_promiscuous_plugin
+loader.debug> Linking library bap_plugin_primus_promiscuous
+loader.info> Loaded primus-promiscuous from "/home/wgh/.opam/4.05.0/lib/bap/primus_promiscuous.plugin"
+loader.debug> Loading map-terms from "/home/wgh/.opam/4.05.0/lib/bap/map_terms.plugin"
+loader.debug> Linking library bap-bml
+loader.debug> Linking library map_terms_plugin
+loader.debug> Linking library bap_plugin_map_terms
+loader.info> Loaded map-terms from "/home/wgh/.opam/4.05.0/lib/bap/map_terms.plugin"
+loader.debug> Loading primus-mark-visited from "/home/wgh/.opam/4.05.0/lib/bap/primus_mark_visited.plugin"
+loader.debug> Linking library primus_mark_visited_plugin
+loader.debug> Linking library bap_plugin_primus_mark_visited
+loader.info> Loaded primus-mark-visited from "/home/wgh/.opam/4.05.0/lib/bap/primus_mark_visited.plugin"
+loader.debug> Loading demangle from "/home/wgh/.opam/4.05.0/lib/bap/demangle.plugin"
+loader.debug> Linking library demangle_plugin
+loader.debug> Linking library bap_plugin_demangle
+loader.info> Loaded demangle from "/home/wgh/.opam/4.05.0/lib/bap/demangle.plugin"
+loader.debug> Loading llvm from "/home/wgh/.opam/4.05.0/lib/bap/llvm.plugin"
+loader.debug> Linking library llvm_plugin
+loader.debug> Linking library bap_plugin_llvm
+loader.info> Loaded llvm from "/home/wgh/.opam/4.05.0/lib/bap/llvm.plugin"
+loader.debug> Loading phoenix from "/home/wgh/.opam/4.05.0/lib/bap/phoenix.plugin"
+loader.debug> Linking library cstruct
+loader.debug> Linking library hex
+loader.debug> Linking library uutf
+loader.debug> Linking library jsonm
+loader.debug> Linking library ezjsonm
+loader.debug> Linking library phoenix_plugin
+loader.debug> Linking library bap_plugin_phoenix
+loader.info> Loaded phoenix from "/home/wgh/.opam/4.05.0/lib/bap/phoenix.plugin"
+loader.debug> Loading primus-exploring from "/home/wgh/.opam/4.05.0/lib/bap/primus_exploring.plugin"
+loader.debug> Linking library primus_exploring_scheduler_plugin
+loader.debug> Linking library bap_plugin_primus_exploring
+loader.info> Loaded primus-exploring from "/home/wgh/.opam/4.05.0/lib/bap/primus_exploring.plugin"
+loader.debug> Loading primus-greedy from "/home/wgh/.opam/4.05.0/lib/bap/primus_greedy.plugin"
+loader.debug> Linking library primus_greedy_scheduler_plugin
+loader.debug> Linking library bap_plugin_primus_greedy
+loader.info> Loaded primus-greedy from "/home/wgh/.opam/4.05.0/lib/bap/primus_greedy.plugin"
+primus-greedy.info> enabling the scheduler
+loader.debug> Loading dump-symbols from "/home/wgh/.opam/4.05.0/lib/bap/dump_symbols.plugin"
+loader.debug> Linking library dump_symbols_plugin
+loader.debug> Linking library bap_plugin_dump_symbols
+loader.info> Loaded dump-symbols from "/home/wgh/.opam/4.05.0/lib/bap/dump_symbols.plugin"
+loader.debug> Loading callsites from "/home/wgh/.opam/4.05.0/lib/bap/callsites.plugin"
+loader.debug> Linking library callsites_plugin
+loader.debug> Linking library bap_plugin_callsites
+loader.info> Loaded callsites from "/home/wgh/.opam/4.05.0/lib/bap/callsites.plugin"
+x86.info> can't detect ABI, falling back to default
+x86.info> using sysv ABI
+x86.info> applying sysv to __libc_start_main
+x86.info> applying sysv to fgetc
+x86.info> applying sysv to fopen
+x86.info> applying sysv to main
+x86.info> applying sysv to printf
+trivial-condition-form.info> translating the program into the Trivial Condition Form (TCF)
+primus-lisp.info> redirecting fd 0 to /home/wgh/.opam/4.05.0/share/bap/check/stdin
+primus-lisp.info> redirecting fd 1 to /home/wgh/.opam/4.05.0/share/bap/check/stdout
+primus-print.info> monitoring incident-location
+primus-print.info> monitoring incident
+primus-print.info> monitoring lisp-message
+primus-print.info> monitoring taint-attached
+primus-print.info> monitoring undefined-ptr
+primus-print.info> monitoring undefined-var
+primus-print.info> monitoring undefined-input
+primus-print.info> monitoring machine-fork
+primus-print.info> monitoring machine-switch
+primus-print.info> monitoring call-return
+primus-print.info> monitoring call
+primus-print.info> monitoring jumping
+primus-print.info> monitoring pc-changed
+primus-print.info> monitoring spectre-hypot-init
+primus-print.info> monitoring spectre-hypot-partial
+primus-print.info> monitoring spectre-path
+ddtbd.warning> can't establish a control dep for top(%00000195)
+ddtbd.warning> can't establish a control dep for top(%00000195)
+ddtbd.warning> can't establish a control dep for top(%00000195)
+ddtbd.warning> can't establish a control dep for top(%00000195)
+ddtbd.warning> can't establish a control dep for top(%00000195)
+run.info> The Lisp Machine program is well-typed
+run.info> Fork 1: starting from the 0000010d entry point
+ddtbd.warning> can't establish a control dep for arg(%000001a0)
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> ignoring jumping at pos %00000131
+ddtbd.warning> ignoring jumping at pos %0000016e
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 7 from 1
+primus-greedy.info> killing previous machine 1
+ddtbd.warning> ignoring jumping at pos %0000016f
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 6 from 7
+primus-greedy.info> killing previous machine 7
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 5 from 6
+primus-greedy.info> killing previous machine 6
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 4 from 5
+primus-greedy.info> killing previous machine 5
+ddtbd.warning> ignoring jumping at pos %00000132
+ddtbd.warning> can't establish a control dep for arg(%000001a3)
+primus-lisp.info> skipping a jump to an unknown destination at 0x400470
+ddtbd.warning> can't establish a control dep for arg(%000001a4)
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 8 from 4
+primus-greedy.info> killing previous machine 4
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 3 from 8
+primus-greedy.info> killing previous machine 8
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 2 from 3
+primus-greedy.info> killing previous machine 3
+ddtbd.warning> ignoring jumping at pos %000000eb
+ddtbd.warning> can't establish a control dep for arg(%000001a0)
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> ignoring jumping at pos %00000131
+ddtbd.warning> ignoring jumping at pos %0000016e
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 9 from 2
+primus-greedy.info> killing previous machine 2
+ddtbd.warning> ignoring jumping at pos %000000ec
+ddtbd.warning> ignoring jumping at pos %000000fb
+ddtbd.warning> can't establish a control dep for arg(%000001a0)
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> ignoring jumping at pos %00000131
+ddtbd.warning> ignoring jumping at pos %0000016e
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+run.info> execution from 0000010d terminated with: Halt 
+primus-greedy.info> switch to machine 10 from 9
+primus-greedy.info> killing previous machine 9
+ddtbd.warning> ignoring jumping at pos %000000fc
+primus-lisp.info> skipping a jump to an unknown destination at 0x400515
+run.info> execution from 0000010d terminated with: primus runtime error - File "/home/wgh/.opam/4.05.0/share/primus/site-lisp/libc-init.lisp", line 7, characters 0-159
+invoke-subroutine: no function for 0x601050:64u 
+primus-greedy.info> switch to machine 0 from 10
+primus-greedy.info> killing previous machine 10
+run.info> Fork 11: starting from the 00000158 entry point
+ddtbd.warning> can't establish a control dep for arg(%000001a0)
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> ignoring jumping at pos %00000131
+ddtbd.warning> ignoring jumping at pos %0000016e
+ddtbd.warning> can't establish a control dep for arg(%000001a1)
+ddtbd.warning> can't establish a control dep for arg(%000001a2)
+primus-greedy.info> switch to machine 0 from 11
+primus-greedy.info> killing previous machine 11
+run.info> Fork 12: starting from the 00000194 entry point
+ddtbd.warning> ignoring jumping at pos %0000016f
+primus-greedy.info> switch to machine 0 from 12
+primus-greedy.info> killing previous machine 12
+run.info> Fork 13: starting from the 0000015b entry point
+ddtbd.warning> can't establish a control dep for arg(%000001a3)
+primus-lisp.info> skipping a jump to an unknown destination at 0x400470
+ddtbd.warning> can't establish a control dep for arg(%000001a4)
+primus-greedy.info> switch to machine 0 from 13
+primus-greedy.info> killing previous machine 13
+run.info> Fork 14: starting from the 00000113 entry point
+ddtbd.warning> can't establish a control dep for top(%00000195)
+primus-greedy.info> switch to machine 0 from 14
+primus-greedy.info> killing previous machine 14
+run.info> Fork 15: starting from the 00000110 entry point
+ddtbd.warning> can't establish a control dep for top(%00000195)
+primus-greedy.info> switch to machine 0 from 15
+primus-greedy.info> killing previous machine 15
+run.info> Fork 16: starting from the 0000008d entry point
+run.info> execution from 0000008d terminated with: primus runtime error - File "/home/wgh/.opam/4.05.0/share/primus/site-lisp/libc-init.lisp", line 7, characters 0-159
+invoke-subroutine: no function for 0:64u 
+primus-greedy.info> switch to machine 0 from 16
+primus-greedy.info> killing previous machine 16
+run.info> Fork 17: starting from the 0000008a entry point
+ddtbd.warning> ignoring jumping at pos %0000009f
+ddtbd.warning> ignoring jumping at pos %00000044
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006c
+primus-greedy.info> switch to machine 22 from 17
+primus-greedy.info> killing previous machine 17
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+ddtbd.warning> ignoring jumping at pos %0000009f
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006b
+primus-limit.info> terminating machine 22 because a maximum number of expressions has been reached
+run.info> execution from 0000008a terminated with: Halt 
+primus-greedy.info> switch to machine 21 from 22
+primus-greedy.info> killing previous machine 22
+run.info> execution from 0000008a terminated with: Halt 
+primus-greedy.info> switch to machine 20 from 21
+primus-greedy.info> killing previous machine 21
+ddtbd.warning> ignoring jumping at pos %00000043
+primus-greedy.info> switch to machine 19 from 20
+primus-greedy.info> killing previous machine 20
+ddtbd.warning> ignoring jumping at pos %000000a0
+primus-lisp.info> skipping a jump to an unknown destination at 0x4004B0
+ddtbd.warning> ignoring jumping at pos %00000044
+primus-lisp.info> skipping a jump to an unknown destination at 0x4006A9
+ddtbd.warning> ignoring jumping at pos %0000006c
+primus-greedy.info> switch to machine 23 from 19
+primus-greedy.info> killing previous machine 19
+run.info> execution from 0000008a terminated with: Halt 
+primus-greedy.info> switch to machine 18 from 23
+primus-greedy.info> killing previous machine 23
+run.info> execution from 0000008a terminated with: Halt 
+primus-greedy.info> switch to machine 0 from 18
+primus-greedy.info> killing previous machine 18
+run.info> Fork 24: starting from the 000000b6 entry point
+ddtbd.warning> ignoring jumping at pos %0000009f
+primus-greedy.info> switch to machine 0 from 24
+primus-greedy.info> killing previous machine 24
+run.info> Fork 25: starting from the 0000015e entry point
+primus-lisp.info> skipping a jump to an unknown destination at 0x4004B0
+primus-greedy.info> switch to machine 0 from 25
+primus-greedy.info> killing previous machine 25
+run.info> Fork 26: starting from the 00000006 entry point
+run.info> execution from 00000006 terminated with: Halt 
+primus-greedy.info> switch to machine 0 from 26
+primus-greedy.info> killing previous machine 26
+run.info> all toplevel machines done, halting
+primus-greedy.info> no more pending machines
+run.info> Ok, we've terminated normally

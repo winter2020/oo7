@@ -1,0 +1,2 @@
+git clone https://github.com/apple/cups.git
+git checkout bbe495b0ea167d92095be6aa8fdb226d5b33969e
